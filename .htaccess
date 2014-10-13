@@ -1,0 +1,17 @@
+RewriteEngine on
+RewriteRule !\.(js|gif|png|jpg|css)$    index.php
+
+php_value default_socket_timeout 240
+php_value mysql.connect_timeout 240
+php_value max_execution_time 600
+php_value max_input_time 600
+
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/jpeg "access plus 6 months"
+    ExpiresByType image/png "access plus 6 months"
+    ExpiresByType image/gif "access plus 6 months"
+    ExpiresByType text/css "access plus 6 months"
+    ExpiresByType text/javascript "access plus 6 months"
+    ExpiresByType text/html "access plus 6 months"
+</IfModule>

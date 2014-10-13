@@ -1,0 +1,35 @@
+.cont {
+    border-left: 1px solid #DDD;
+    border-right: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+    border-bottom-color: transparent; padding-top: 8px;
+    line-height: 20px;
+    -webkit-border-radius: 0 0 4px 4px;
+    -moz-border-radius: 0 0 4px 4px;
+    border-radius: 0 0 4px 4px;
+    padding: 0px;
+    margin-top: -20px;
+}
+.main { padding: 20px; color: #333; margin-top: 20px; min-width: 970px; }
+.cont > div { padding: 10px 13px 13px 13px;}
+.nav-tabs li a { font-weight: bold; }
+.tab-pane { border-bottom: 1px solid #DDD; border-radius: 0 0 4px 4px; background: #fff; padding-top: 5px;
+min-height: 400px; }
+#db_params .row .span2 label { height: 43px;}
+.thumbnail { width: 200px; height: 200px; background-image: url(http://placehold.it/200x200); }
+.span3 { padding-top: 10px;}
+.span3 span { position: relative; top: 5px; text-decoration: none;}
+.span3 span:hover { text-decoration: none; }
+
+.span3 > .well-large { position: absolute; padding: 0; }
+.thumbnails > li { margin-bottom: 70px;}
+
+.tags {
+    width: 204px;
+    display: block;
+    white-space: inherit;
+    margin-top: -13px;
+}
+
+.count_like { cursor: pointer; }
+.tab-pane .label { cursor: pointer; }
